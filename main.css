@@ -62,16 +62,43 @@ pre,table,fieldset,hr,img,
 .main-header, .primary-content {
     margin-bottom: 1rem;
 }
-
+/* === header styles */ 
 .main-header{
   text-align: center;
   padding: 1.25rem;
-  background-color: rgb(66, 68, 78)
+  background-color: rgb(66, 68, 78);
+  position: fixed;
+  top:0;
+  width: 100%;
+  margin: 0 auto 1rem;
+}
+
+@media (min-width:768px){
+  .main-header{
+    position: fixed;
+    top:0;
+    width: 33%;
+    height: 100%;
+  }
+}
+/* Primary Content Wrapper Styles */
+
+@media (min-width: 768px) {
+	.primary-content {
+		float: right;
+		width: 66.6%;
+		max-width: 812px;
+	}
+}
+
+/* === article styles === */
+main{
+  margin-top: 11.125rem;
 }
 
 .post{
   width: 95%;
-  margin: 1.25rem auto;
+  margin: 0 auto 1rem;
   padding: .3125rem;
 }
 .picture{
@@ -99,11 +126,3 @@ pre,table,fieldset,hr,img,
 	color: rgb(255, 0, 102);
 }
 
-/* design styles*/ 
-/*
-.blog-bckg{
-  background-color: hsla(0, 0%, 100%, .5);
-  border-radius: 4px;
-  box-shadow: hsla(0, 0%, 0%, .8) 10px 10px 80px;
- 
-}*/
