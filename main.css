@@ -130,7 +130,8 @@ pre,table,fieldset,hr,img,
   width: 100px;
 }
 .button:hover {
-	border: 2px solid chartreuse;
+  border: 2px solid chartreuse;
+  background-color: azure;
 }
 
 .load{
