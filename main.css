@@ -90,7 +90,7 @@ pre,table,fieldset,hr,img,
 /* Primary Content Wrapper Styles */
 @media(max-width:768px){ /* szabály a mobil kijelzőkre, adjon egy margót a fixált header miatt*/
   main{
-    margin-top: 11.125rem;
+    margin-top: 13.4rem;
   }
 }
 
