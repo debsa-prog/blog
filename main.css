@@ -7,7 +7,7 @@ h1, h2: allerta stencil 36 és 18px, szín: rgba(12, 159, 33,.8)
 === */
 
 /* ==== HELPER COLORS FOR LAYOUT ==== */
- 
+/* 
 .main-header {
 	background-color: rgba(255, 248, 53, .3);
 }
@@ -19,11 +19,12 @@ h1, h2: allerta stencil 36 és 18px, szín: rgba(12, 159, 33,.8)
 .post {
 	background-color: rgba(255, 0, 0, .3);
 }
+*/
 
+/* === base styles === */
 *{
   box-sizing: border-box;
 }
-/* === base styles === */
 body{
   font: 1.125rem/2rem 'Merriweather Sans', sans-serif;
   color: rgba(51,51,51,.8);
@@ -33,7 +34,7 @@ body{
 
 h1, h2{
   font: 'Allerta Stencil', sans-serif;
-  color: rgba(12,159,33,.8);
+  color:chartreuse;
 }
 
 h1{
@@ -44,7 +45,17 @@ h2{
 }
 .main-header p{
   letter-spacing: .125rem;
+  color: palegreen
 }
+a {
+	color: palegreen;
+	text-decoration: none;
+}
+
+a:hover {
+	color: chartreuse;
+}
+
 /* === Layout === */
 h1,h2,h3,ul,ol,p,figure,
 pre,table,fieldset,hr,img,
@@ -55,6 +66,7 @@ pre,table,fieldset,hr,img,
 .main-header{
   text-align: center;
   padding: 1.25rem;
+  background-color: rgb(66, 68, 78)
 }
 
 .post{
@@ -62,6 +74,31 @@ pre,table,fieldset,hr,img,
   margin: 1.25rem auto;
   padding: .3125rem;
 }
+.picture{
+  width: 100%;
+}
+
+.button{
+  display: inline-block;
+  border: 2px solid palegreen;
+  border-radius: 10px;
+  padding: 0 5px;
+  margin: 5px;
+  width: 100px;
+}
+.button:hover {
+	border: 2px solid chartreuse;
+}
+
+.load{
+  display: block;
+  	display: block;
+	text-align: center;
+	padding: 0.625rem;
+	font-size: 1.25rem;
+	color: rgb(255, 0, 102);
+}
+
 /* design styles*/ 
 /*
 .blog-bckg{
