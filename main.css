@@ -42,6 +42,9 @@ h1{
 }
 h2{
   font-size: 1.375rem;
+  background-color: rgb(66, 68, 78);
+  margin-top: -2.5rem;
+  padding: 2.5rem 0;
 }
 .main-header p{
   letter-spacing: .125rem;
@@ -57,7 +60,7 @@ a:hover {
 }
 
 /* === Layout === */
-h1,h2,h3,ul,ol,p,figure,
+h1,ul,ol,p,figure,
 pre,table,fieldset,hr,img,
 .main-header, .primary-content {
     margin-bottom: 1rem;
