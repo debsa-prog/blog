@@ -75,6 +75,7 @@ pre,table,fieldset,hr,img,
   width: 100%;
   margin: 0 auto;
   height: 182px;
+  z-index: 1;
 }
 
 @media (min-width:768px){
@@ -99,7 +100,6 @@ pre,table,fieldset,hr,img,
   .primary-content{
     position: relative;
     top:200px;
-    z-index: -1;
   }
 }
 
